@@ -1,7 +1,6 @@
 function showMaps(pos){
     // User location map
     var usrPos = {lat: pos.coords.latitude, lng: pos.coords.longitude}
-    alert(usrPos)
     var mapDiv = document.getElementById("map");
     var map = new google.maps.Map(mapDiv, {
         center: usrPos,
